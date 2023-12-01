@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pocket-base-connector"
+version = "0.1.0"
+description = "connessione al pokcetbase"
+authors = ["Andrea Veronese <andrea.veronese00@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pocketbase = "^0.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
